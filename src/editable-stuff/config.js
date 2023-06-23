@@ -12,12 +12,12 @@ const mainBody = {
   message: " Passionate about changing the world with data. ",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/carleydillard/",
+    },
+     {
+      image: "fa-github",
+      url: "https://github.com/carleydillard",
     },
   ],
 };
@@ -39,11 +39,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/professionalprofilepic.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Carley Dillatd. I’m a graduate of 2020 from Pepperdine University with a degree in Psychology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of data analytics. In my free time I like working on open source projects.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -88,24 +88,23 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "R", value: 60 },
+    { name: "SQL", value: 85 },
+    { name: "Spreadsheets", value: 85 },
+    { name: "Tableau", value: 65 },
+    { name: "Data Cleaning", value: 80 },
+    { name: "Data Visualization", value: 80 },
+    { name: "Microsoft Powerpoint", value: 90 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 85 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Organization", value: 90 },
+    { name: "Creativity", value: 70 },
   ],
 };
 
@@ -114,8 +113,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Data Analyst opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "ckdillard@yahoo.com",
 };
 
 const experiences = {
@@ -123,14 +122,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'Model', 
       companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      date: 'September 2019 – Present',
     },
     {
-      role: 'Front-End Developer',
+      role: 'Stylist', 
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      date: 'February 2022 – October 2022',
     },
   ]
 }
